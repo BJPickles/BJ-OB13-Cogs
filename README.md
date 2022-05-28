@@ -3,8 +3,7 @@
 [![Discord.py](https://img.shields.io/badge/Discord.py-rewrite-blue.svg)](https://github.com/Rapptz/discord.py/tree/rewrite)
 [![Python 3.8](https://img.shields.io/pypi/pyversions/Red-Discordbot)](https://www.python.org/downloads/)
 
-CREDIT: Obi-Wan3's Assorted Utility Cogs for Red v3
-BJPickles has created this fork for some minor custom work to suit his bots.
+CREDIT: Obi-Wan3's Assorted Utility Cogs for Red v3. BJPickles has created this fork for some minor custom work to suit his bots. Please consider this repo out of date.
 
 Please see below for a list of my cogs and their statuses. 
 A big thank you to the [Red community](https://discord.gg/red) for all the help with coding, and to my GitHub Sponsors for their support! 

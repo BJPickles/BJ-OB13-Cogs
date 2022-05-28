@@ -55,8 +55,8 @@ Run the following commands with your Red instance, replacing `[p]` with your pre
 
 If you don't already have Downloader loaded, go ahead and do that first: `[p]load downloader`. Then, 
 ```ini
-[p]repo add OB13-Cogs https://github.com/Obi-Wan3/OB13-Cogs
-[p]cog install OB13-Cogs <list of cogs>
+[p]repo add BJ-OB13-Cogs https://github.com/BJPickles/BJ-OB13-Cogs
+[p]cog install BJ-OB13-Cogs <list of cogs>
 [p]load <list of cogs>
 ```
 

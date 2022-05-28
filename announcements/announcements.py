@@ -32,8 +32,9 @@ class Announcements(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.has_any_role('Developer', 'Corporal', 'Corporal I', 'Corporal II', 'Corporal III', 'Corporal IV', 'Lieutenant', 'Lieutenant I', 'Lieutenant II', 'Lieutenant III', 'Lieutenant IV', 'Lieutenant V', 'Subcommander', 'Commander', '91AR Subcommander', '91AR Commander')
     @commands.command(name="announcement")
+    @commands.has_any_role('Developer', 'Corporal', 'Corporal I', 'Corporal II', 'Corporal III', 'Corporal IV', 'Lieutenant', 'Lieutenant I', 'Lieutenant II', 'Lieutenant III', 'Lieutenant IV', 'Lieutenant V', 'Subcommander', 'Commander', '91AR Subcommander', '91AR Commander')
+    @commands.guild_only()
     async def _announcement(self, ctx: commands.Context, channel: discord.TextChannel, role: discord.Role, *, message=""):
         """Send an announcement message to a specific channel with a role ping."""
         try:
